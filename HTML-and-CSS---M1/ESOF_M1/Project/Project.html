@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head><link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+  <div class="container" style="font-family: 'Lato', sans-serif;">
+    <div class="row">
+      <div class="col-md-6">
+      <img src="images/udacity-logo.jpg" class="img-responsive" alt="Responsive image">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 style="color: #a70b0b;">STAR WARS</h1>
+        <h3 style="font-weight: lighter; color: #a70b0b;">Discovering a new world</h3></div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+      <img src="images/um.jpg" class="img-responsive" data-toggle="modal" data-target="#Imagem1">
+    </div>
+    </div>
+    <div class="row" style="padding-bottom: 10px;">
+    <div class="col-md-12">
+      <h2 style="color: #BCBBBB; margin-bottom: 0px;">Um pouco da tecnologia de guerra de Star Wars:</h2>
+      <h2 style="color: #BCBBBB; font-size: 20px; margin-top: 5px;">(Clique nas imagens para abrir)</h2>
+    </div>
+    </div>
+    <div class="row" style="text-align: center; color: #a70b0b;">
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/dois.jpg" data-toggle="modal" data-target="#Imagem2" style="
+        height: 230px; width: 550px;">
+        <h3>Estrela da Morte</h3>
+        <p><a href="http://pt.starwars.wikia.com/wiki/Estrela_da_Morte_II">Clique para sabe mais</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/tres.jpg" class="img-responsive" data-toggle="modal" data-target="#Imagem3" style="height: 230px;  width: 550px;">
+        <h3>AT-AT Walker</h3>
+        <p><a href="http://br.starwars.com/banco-de-dados/walker-at-at">Clique para saber mais</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/quatro.jpg" class="img-responsive" data-toggle="modal" data-target="#Imagem4" style="height: 230px; width: 550px;">
+        <h3>Millennium Falcon</h3>
+        <p><a href="http://pt.starwars.wikia.com/wiki/Millennium_Falcon">Clique para saber mais</a></p>
+      </div>
+    </div>
+
+   <!-- Modal -->
+    <div class="modal fade" id="Imagem2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Imagem2">Estrela da Morte</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/dois.jpg" >
+                  Estrela da Morte e uma estacao espacial belica criada pelo Imperio Galactico na serie cinematografica de ficcao cientifica Star Wars. E uma gigantesca estacao espacial esferica, com 140 km de diametro. Carrega milhares de soldados (stormtroopers), cacas TIE e cacas TIE avancados como o de Darth Vader, mas sua arma maior e o superlaser que possui um formato de uma gigantesca cratera, que causa a destruicao total de planetas, como o planeta natal de Princesa Leia (irma de Luke Skywalker).
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- Modal -->
+    <div class="modal fade" id="Imagem3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Imagem3">AT-AT Walker</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/tres.jpg" >
+                    O Transporte Blindado para Todo Terreno, ou walker AT-AT, e um veiculo de transporte e combate dotado de quatro pernas, usado pelas forcas terrestres do Imperio. Com mais de 20 metros de altura e blindagem a prova de blaster, estas maquinas sao usadas nao apenas para efeito tatico, mas tambem para efeito psicologico.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- Modal -->
+    <div class="modal fade" id="Imagem4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Imagem4">Millennium Falcon</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/quatro.jpg" >
+                    A Millennium Falcon foi uma lendaria nave estelar a despeito de sua origens humildes e exterior enganosamente dilapidado. A Millennium Falcon foi elemento-chave em algumas das maiores vitorias da Alianca Rebelde sobre o Imperio. Na superficie, a Falcon aparenta ser como qualquer outro cargueiro corelliano, com o casco primario em forma de disco e uma cabine cilindrica montada ao lado da nave. Embaixo de sua fuselagem, entretanto, a Falcon guarda muitos segredos poderosos.
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Modal -->
+    <div class="modal fade" id="Imagem1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Imagem1">Star Wars</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/zero.jpg" style="padding-left: 70px;">
+                    Star Wars e o titulo de uma franquia de opera espacial estadunidense criada pelo cineasta George Lucas. A franquia conta com uma serie de sete filmes de fantasia cientifica e um spin-off. O primeiro filme da serie foi lancado apenas com o titulo Star Wars em 25 de maio de 1977, e se tornou um sucesso inesperado e fenomeno mundial de cultura popular. Star Wars foi responsavel pelo inicio da "era dos blockbusters": Super producoes cinematograficas que fazem sucesso nas bilheterias e viram franquias com brinquedos, jogos, livros etc. Foi seguido por duas sequencias, O Imperio Contra-Ataca e O Retorno do Jedi, lancadas em intervalos de tres anos. Esta primeira trilogia seguia o trio hoje iconico: Luke Skywalker, Princesa Leia e Han Solo. O trio lutava na Aliança Rebelde para derrubar o tirano Imperio Galactico; paralelamente ocorre a jornada de Luke para se tornar um cavaleiro Jedi e derrotar tanto Darth Vader, um ex-jedi que sucumbiu ao Lado Sombrio da Forca e o Imperador.
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   </body>
